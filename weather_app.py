@@ -4,6 +4,7 @@ import requests
 def get_weather_data(city):
 
     # Make an HTTP request to the OpenWeatherMap API.
+    # Replace {YOUR_API} with your own OpenWeatherMap API!
     def get_weather_data(city): response = requests.get("https://api.openweathermap.org/data/2.5/weather?q={}&appid={YOUR_API}}8&units=metric".format(city))
     response = requests.get("https://api.openweathermap.org/data/2.5/weather?q={}&appid={YOUR_API}&units=metric".format(city))
 
